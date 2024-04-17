@@ -43,26 +43,28 @@
             <picture>
               <source media="(min-width: 1200px)" width="161" height="172" type="image/jpeg" srcset="images/product-chicken-small-deskstop@1x.jpg 1x, images/product-chicken-small-deskstop@2x.jpg 2x">
               <source media="(min-width: 768px)" width="161" height="172" type="image/jpeg" srcset="images/product-chicken-small-deskstop@1x.jpg 1x, images/product-chicken-small-deskstop@2x.jpg 2x">
-              <img class="card__image" src="images/product-chicken-large@1x.jpg 1x" srcset="images/product-chicken-small@2x.jpg 2x" width="68" height="86" alt="Упаковка Cat Energy со вкусом курицы весом 500 г">
+              <img class="card__image" src="images/product-chicken-large@1x.jpg" srcset="images/product-chicken-small@2x.jpg 2x" width="68" height="86" alt="Упаковка Cat Energy со вкусом курицы весом 500 г">
             </picture>
             <h2 class="card__title">Cat Energy PRO
               500 г</h2>
-            <div class="card__text">
-              <p class="card__text card__text--weight">Масса</p>
-              <p class="card__text card__text--weight">500 г</p>
-            </div>
-            <div class="card__text">
-              <p class="card__text card__text--taste">Вкус</p>
-              <p class="card__text card__text--taste">Курица</p>
-            </div>
-            <div class="card__text">
-              <p class="card__text card__text--price">Цена</p>
-              <p class="card__text card__text--price">700 ₽</p>
-            </div>
+            <table class="card__table">
+              <tr class="card__text">
+                <td class="card__text card__text--weight">Масса</td>
+                <td class="card__text card__text--weight">500 г</td>
+              </tr>
+              <tr class="card__text">
+                <td class="card__text card__text--taste">Вкус</td>
+                <td class="card__text card__text--taste">Курица</td>
+              </tr>
+              <tr class="card__text">
+                <td class="card__text card__text--price">Цена</td>
+                <td class="card__text card__text--price">700 ₽</td>
+              </tr>
+            </table>
             <div class="card__button">
-              <button class="card__button card__button--order" type="button">заказать
+              <a class="card__button card__button--order" type="button" href="#">заказать
                 <span class="visually-hidden">заказать</span>
-              </button>
+              </a>
             </div>
           </li>
           <li class="card__link">
@@ -82,9 +84,9 @@
               <p class="card__text card__text--price">1000 ₽</p>
             </div>
             <div class="card__button">
-              <button class="card__button card__button--order" type="button">заказать
+              <a class="card__button card__button--order" type="button">заказать
                 <span class="visually-hidden">заказать</span>
-              </button>
+              </a>
             </div>
           </li>
           <li class="card__link">
@@ -104,9 +106,9 @@
               <p class="card__text card__text--price">700 ₽</p>
             </div>
             <div class="card__button">
-              <button class="card__button card__button--order" type="button">заказать
+              <a class="card__button card__button--order" type="button">заказать
                 <span class="visually-hidden">заказать</span>
-              </button>
+              </a>
             </div>
           </li>
           <li class="card__link">
@@ -126,9 +128,9 @@
               <p class="card__text card__text--price">100 ₽</p>
             </div>
             <div class="card__button">
-              <button class="card__button card__button--order" type="button">заказать
+              <a class="card__button card__button--order" type="button">заказать
                 <span class="visually-hidden">заказать</span>
-              </button>
+              </a>
             </div>
           </li>
           <li class="card__link">
@@ -148,9 +150,9 @@
               <p class="card__text card__text--price">400 ₽</p>
             </div>
             <div class="card__button">
-              <button class="card__button card__button--order" type="button">заказать
+              <a class="card__button card__button--order" type="button">заказать
                 <span class="visually-hidden">заказать</span>
-              </button>
+              </a>
             </div>
           </li>
           <li class="card__link">
@@ -170,9 +172,9 @@
               <p class="card__text card__text--price">700 ₽</p>
             </div>
             <div class="card__button">
-              <button class="card__button card__button--order" type="button">заказать
+              <a class="card__button card__button--order" type="button">заказать
                 <span class="visually-hidden">заказать</span>
-              </button>
+              </a>
             </div>
           </li>
           <li class="card__link">
@@ -192,9 +194,9 @@
               <p class="card__text card__text--price">500 ₽</p>
             </div>
             <div class="card__button">
-              <button class="card__button card__button--order" type="button">заказать
+              <a class="card__button card__button--order" type="button">заказать
                 <span class="visually-hidden">заказать</span>
-              </button>
+              </a>
             </div>
           </li>
           <li class="card__link">
@@ -204,9 +206,9 @@
               <p class="card__text card__text--weight">На самом деле вкусов гораздо больше!</p>
             </div>
             <div class="card__button">
-              <button class="card__button card__button--order" type="button">заказать
+              <a class="card__button card__button--order" type="button">заказать
                 <span class="visually-hidden">заказать</span>
-              </button>
+              </a>
             </div>
           </li>
         </ul>
@@ -220,9 +222,9 @@
           <p class="additional-product__text">1 упаковка (100 г)</p>
           <p class="additional-product__text">200 ₽</p>
           <div class="additional-product__button">
-            <button class="additional-product__button additional-product__button--order" type="button">заказать
+            <a class="additional-product__button additional-product__button--order" type="button">заказать
               <span class="visually-hidden">заказать</span>
-            </button>
+            </a>
           </div>
         </div>
         <div class="additional additional-product">
@@ -240,9 +242,9 @@
           <p class="additional-product__text">1 литр</p>
           <p class="additional-product__text">100 ₽</p>
           <div class="additional-product__button">
-            <button class="additional-product__button additional-product__button--order" type="button">заказать
+            <a class="additional-product__button additional-product__button--order" type="button">заказать
               <span class="visually-hidden">заказать</span>
-            </button>
+            </a>
           </div>
         </div>
         <div class="additional additional-product">
@@ -250,9 +252,9 @@
           <p class="additional-product__text">1 упаковка (30 г)</p>
           <p class="additional-product__text">300 ₽</p>
           <div class="additional-product__button">
-            <button class="additional-product__button additional-product__button--order" type="button">заказать
+            <a class="additional-product__button additional-product__button--order" type="button">заказать
               <span class="visually-hidden">заказать</span>
-            </button>
+            </a>
           </div>
         </div>
         <div class="additional__promo">
