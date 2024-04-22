@@ -6,7 +6,12 @@
   <title>mobile</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <link rel="stylesheet" href="styles/styles.css">
-  <script src="scripts/index.js" defer></script>
+  <script src="scripts/index.js" defer="defer"></script>
+  <link rel="icon" href="favicon.ico">
+  <link rel="icon" href="favicons/icon.svg" type="image/svg+xml">
+  <link rel="icon" type="image/png" href="favicons/favicon-32x32.png">
+  <link rel="apple-touch-icon" href="favicons/apple-icon-180x180.png">
+  <link rel="manifest" href="manifest.json">
 </head>
 
 <body class="page__body">
@@ -48,9 +53,9 @@
             <img class="promo__background" src="images/index-background-mobile@1x.png" width="320" height="302" srcset="images/index-background-mobile@2x.png 2x" alt="Задний фон на зеленом цвете, кот облизывающий свои усы">
           </picture>
           <picture>
-            <source media="(min-width: 1200px)" width="552" height="499" type="image/jpeg" srcset="images/index-can-desktop@1x.jpg 1x, images/index-can-desktop@2x.jpg 2x">
-            <source media="(min-width: 768px)" width="709" height="609" type="image/jpeg" srcset="images/index-can-tablet@1x.jpg 1x, images/index-can-tablet@2x.jpg2x">
-            <img class=" promo__background" src="images/index-can-mobile@1x.jpg" width="280" height="270" srcset="images/index-can-mobile@2x.jpgg 2x" alt="Задний фон на зеленом цвете, кот облизывающий свои усы">
+            <source media="(min-width: 1200px)" width="552" height="499" type="image/jpeg" srcset="images/index-can-deskstop@1x.png, images/index-can-deskstop@2x.png 2x">
+            <source media="(min-width: 768px)" width="709" height="609" type="image/jpeg" srcset="images/index-can-tablet@1x.png, images/index-can-tablet@2x.png 2x">
+            <img class="promo__background" src="images/index-can-mobile@1x.png" width="280" height="270" srcset="images/index-can-mobile@2x.png 2x" alt="Задний фон на зеленом цвете, кот облизывающий свои усы">
           </picture>
           <div class="promo__link">
             <a class="promo__item promo__item--more" href="catalog.html">Подобрать программу</a>
@@ -121,23 +126,25 @@
         </div>
       </div>
     </section>
-    <section class="slaider">
-      <h2 class="visually-hidden">Слайдер кота до и после</h2>
-      <div class="slaider__wrapper">
-        <div class="slaider__bar">
-          <div class="slaider__before">
-            <picture>
-              <source media="(min-width: 1200px)" width="560" height="512" type="image/jpeg" srcset="images/slaider-before-deskstop@1x.jpg 1x, images/slaider-before-deskstop@2x.jpg 2x">
-              <source media="(min-width: 768px)" width="560" height="512" type="image/jpeg" srcset="images/slaider-before-deskstop@1x.jpg 1x, images/slaider-before-deskstop@2x.jpg 2x">
-              <img class="slaider__cat" src="images/slaider-before@1x.jpg 1x" srcset="images/slaider-before@2x.jpg 2x" width="280" height="256" alt="Фото толстого кота до питания">
-            </picture>
-          </div>
-          <div class="slaider__after">
-            <picture>
-              <source media="(min-width: 1200px)" width="560" height="512" type="image/jpeg" srcset="images/slaider-after-deskstop@1x.jpg 1x, images/slaider-after-deskstop@2x.jpg 2x">
-              <source media="(min-width: 768px)" width="560" height="512" type="image/jpeg" srcset="images/slaider-after-deskstop@1x.jpg 1x, images/slaider-before-deskstop@2x.jpg 2x">
-              <img class="slaider__cat" src="images/slaider-after@1x.jpg 1x" srcset="images/slaider-after@2x.jpg 2x" width="280" height="256" alt="Фото толстого кота до питания">
-            </picture>
+    <section class="slider">
+      <div class="slider__wrapper">
+        <h2 class="visually-hidden">Слайдер кота до и после</h2>
+        <div class="slider__wrapper">
+          <div class="slider__bar">
+            <div class="slider__before">
+              <picture>
+                <source media="(min-width: 1200px)" width="560" height="512" type="image/jpeg" srcset="images/cat-before-deskstop@1x.png, images/cat-before-deskstop@2x.png 2x">
+                <source media="(min-width: 768px)" width="560" height="512" type="image/jpeg" srcset="images/cat-before-deskstop@1x.png, images/cat-before-deskstop@2x.png 2x">
+                <img class="slider__cat" src="images/cat-before-mobile@1x.png" srcset="images/cat-before-mobile@2x.png 2x" width="280" height="256" alt="Фото толстого кота до питания">
+              </picture>
+            </div>
+            <div class="slider__after">
+              <picture>
+                <source media="(min-width: 1200px)" width="560" height="512" type="image/jpeg" srcset="images/cat-after-deskstop@1x.png, images/cat-after-deskstop@2x.webp 2x">
+                <source media="(min-width: 768px)" width="560" height="512" type="image/jpeg" srcset="images/cat-after-deskstop@1x.png, images/cat-after-deskstop@2x.webp 2x">
+                <img class="slider__cat" src="images/cat-after-mobile@1x.png" srcset="images/cat-after-mobile@2x.png 2x" width="280" height="256" alt="Фото стройного кота после питания">
+              </picture>
+            </div>
           </div>
         </div>
       </div>
