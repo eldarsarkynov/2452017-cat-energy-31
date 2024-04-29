@@ -6,8 +6,26 @@
 
 }
 
-.preview__content {
+.preview__media{
+
+}
+
+.preview__container {
   background: #f2f2f2;
+}
+
+.preview__block {
+  background-color: $base-color-background;
+  display: block;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  position: absolute;
+}
+
+.preview__content {
+  display: block;
+  position: relative;
 }
 
 .preview__icon-narrow {

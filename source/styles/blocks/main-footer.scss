@@ -1,5 +1,6 @@
-.main-footer{
-
+.main-footer {
+  display: flex;
+  flex-direction: column;
 }
 
 .main-footer__wrapper{
@@ -10,8 +11,7 @@
 
 }
 
-.main-footer__social{
-
+.main-footer__social {
 }
 
 .main-footer__copyright{
